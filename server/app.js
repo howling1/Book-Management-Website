@@ -1,6 +1,6 @@
 /**
  * BASE SETUP
- * import the packages we need
+ * import the packages
  */
 const express = require('express');
 /**
