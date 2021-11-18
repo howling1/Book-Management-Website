@@ -60,7 +60,7 @@ router.route('/exercise3/:name/:productId')
         );
     });
 /**
- * REGISTER OUR ROUTES
+ * REGISTER ROUTES
  * our router is now pointing to /exercises
  */
 app.use('/api', router);
