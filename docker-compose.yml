@@ -1,0 +1,17 @@
+version: '3'
+services:
+  server:
+    image: howling0123/microservice:server
+    ports:
+      - "3000:3000"
+    depends_on:
+      - hello-world-service
+      - product-descp-service
+      - product-price-service
+  hello-world-service:
+    image: howling0123/microservice:hello
+  product-descp-service:
+    image: howling0123/microservice:productdescp
+  product-price-service:
+    image: howling0123/microservice:productprice
+
