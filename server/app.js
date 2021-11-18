@@ -4,7 +4,7 @@
  */
 const express = require('express');
 /**
- * import the Services we need
+ * import the Services
  */
 const helloWorldService = require('./services/helloWorld');
 const productDescpService = require('./services/productDescp');
